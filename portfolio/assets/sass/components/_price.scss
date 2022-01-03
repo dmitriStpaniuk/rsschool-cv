@@ -1,0 +1,31 @@
+.price__items {
+  padding: 0.6rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.price__item {
+  padding: 1.5rem 11.2rem;
+  text-align: center;
+  border: 0.3rem solid $color-Gold;
+}
+.price__content {
+  display: block;
+}
+.price__title {
+  @include font(Merriweather, normal, bold, 2.8rem, 5.5rem);
+}
+.price__cost {
+  @include font(Merriweather, normal, bold, 2.4rem, 3.4rem);
+  color: $color-Gold;
+  padding-bottom: 26px;
+}
+.price__content {
+  @include font(Inter, normal, normal, 1.7rem, 3.6rem);
+}
+.price__item {
+  .color__button {
+    margin: 3.9rem 0 2.5rem 0;
+  }
+}

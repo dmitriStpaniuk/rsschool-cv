@@ -1,0 +1,42 @@
+.header__container {
+  background: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 16px 0 20px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  
+}
+.navigation {
+  display: flex;
+  margin-left: auto;
+  @include font(Inter, normal, normal, 2rem, 3.5rem);
+}
+.navigation__item {
+  margin-right: 3.3rem;
+  cursor: pointer;
+}
+
+.navigation__item:hover {
+  color: $color-Gold;
+  @extend %transition;
+}
+.change__language {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.en {
+  color: $color-Gold;
+  padding-right: 0.4rem;
+}
+.slash {
+  padding-right: 0.4rem;
+}

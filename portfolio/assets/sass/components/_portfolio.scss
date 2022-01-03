@@ -1,0 +1,18 @@
+.porfolio__buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.7rem 0 6rem 0;
+    gap: 0.5rem;
+    @include laptop{
+        margin: 17px 50px 0 50px;
+    }
+}
+.portfolio__gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding-bottom: 4.7rem;
+}

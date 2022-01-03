@@ -1,0 +1,47 @@
+.contacts__container {
+  margin-top: 9.2rem;
+  background: url("../img/contacts.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 70rem;
+  background-position: center ;
+  display: flex;
+  justify-content: flex-end;
+}
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+  width: 47rem;
+  padding: 0 2rem 19.5rem 0;
+}
+input::placeholder {
+  font-family: inherit;
+  color: #bdae82;
+  font-size: 2rem;
+}
+textarea {
+  resize: none;
+  border: 0.2rem solid $color-Gold;
+  background-color: $color-Bg-dark;
+  opacity: 0.5;
+  padding: 1.2rem 0 1rem 2rem;
+  @include font(Inter, normal, normal, 2rem, 1.8rem);
+  margin-bottom: 3rem;
+  &::placeholder {
+    font-family: inherit;
+    color: #bdae82;
+    font-size: 20px;
+  }
+}
+.contacts__title {
+  padding: 2.7rem 0 0.8rem 0;
+  @include font(Merriweather, normal, bold, 4rem, 8rem);
+  color: #bdae82;
+}
+input {
+  border: 0.2rem solid $color-Gold;
+  background-color: $color-Bg-dark;
+  opacity: 0.5;
+  padding: 0.3rem 0 0.3rem 2rem;
+  margin-bottom: 2rem;
+  @include font(Inter, normal, normal, 2rem, 4rem);
+}

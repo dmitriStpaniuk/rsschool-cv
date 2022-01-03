@@ -1,0 +1,11 @@
+.logo {
+  background-image: url("../svg/logo.svg");
+  width: 5rem;
+  height: 5rem;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  @extend %transition;
+  &:hover {
+    @extend %hover__svg;
+  }
+}

@@ -1,0 +1,25 @@
+.hero__container {
+  background: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center -84px;
+  display: flex;
+  margin-bottom: 4.5rem;
+  @include laptop {
+    background: url("../img/hero-768.jpg");
+    background-repeat: no-repeat;
+    // background-size: contain;
+    margin-bottom: 5.4rem;
+    background-position: 0 -90px;
+    height: 500px;    
+  }
+}
+.hero__wrapper__content {
+  display: flex;
+  flex-direction: column;
+  width: 39%;
+  padding: 15.6rem 0 33rem 8rem;
+}
+.hero__content {
+  @include font(Inter, normal, normal, 2rem, 4rem);
+  padding-bottom: 2.4rem;
+}
