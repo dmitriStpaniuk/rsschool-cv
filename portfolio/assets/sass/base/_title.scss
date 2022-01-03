@@ -1,0 +1,22 @@
+.section__line {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+}
+.section__title {
+  display: inline;
+  @include font(Merriweather, normal, bold, 4rem, 8rem);
+  padding: 2rem;
+  color: $color-Gold;
+  background-color: $color-Bg-dark;
+}
+hr {
+  position: absolute;
+  width: 97%;
+  background-color: $color-Gold;
+  z-index: -1;
+  height: 0.2rem;
+}

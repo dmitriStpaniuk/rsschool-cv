@@ -1,0 +1,40 @@
+.video {
+  margin-bottom: 4.7rem;
+}
+.video__player {
+  margin-top: 0.7rem;
+  padding: 0 2rem;
+  .video__cover {
+    background: url("../img/video-player.jpg") no-repeat 50% 50%;
+    background-size: 100% auto;
+    height: 705px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+  }
+}
+.video__cover button {
+  background-color: transparent;
+}
+.play__button {
+  border: 0;
+  width: 130px;
+  height: 130px;
+  background-image: url("../../svg/play_hover.svg");
+  position: absolute;
+  cursor: pointer;
+}
+.play__button:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+.video__img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  @include laptop {
+  }
+}

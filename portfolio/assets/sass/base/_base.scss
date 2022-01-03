@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  background-color: $color-Bg-dark;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+  color: $color-White;
+}
+a {
+  text-decoration: none;
+  color: $color-White;
+  @extend %transition;
+}
+a:hover {
+  color: $color-Gold;
+}
+h1 {
+  @include font(Merriweather, normal, bold, 6rem, 6rem);
+}
+h2 {
+  @include font(Merriweather, normal, bold, 4rem, 8rem);
+}
+h3 {
+  @include font(Merriweather, normal, bold, 2.8rem, 5.6rem);
+}
+h4 {
+  @include font(Inter, normal, bold, 2rem, 4rem);
+}
+ul {
+  list-style: none;
+}
+input {
+  color: $color-White;
+}
+textarea {
+  color: $color-White;
+}
