@@ -50,3 +50,13 @@ Music teacher. I have achieved a lot in my profession, my pupils are laureates o
   };
 ````
 
+### Education
+
+
++ [fun-javascript](https://fun-javascript-projects.com/)
++ [Modern React with Redux](https://www.udemy.com/course/react-redux/?utm_source=adwords&utm_medium=udemyads&utm_campaign=WebDevelopment_v.PROF_la.EN_cc.ROW_ti.8322&utm_content=deal4584&utm_term=_._ag_80385735315_._ad_535397279730_._kw__._de_c_._dm__._pl__._ti_dsa-774930035449_._li_9062751_._pd__._&matchtype=&gclid=Cj0KCQiAweaNBhDEARIsAJ5hwbdo-xJzzZ5hQ4B7rY8hwNt9X_OhfEj-tT0zMhularCpC_KNMK592A0aAk57EALw_wcB)
++ [ulbitv](https://www.youtube.com/channel/UCDzGdB9TTgFm8jRXn1tBdoA)
+
+### English
+
+A2
