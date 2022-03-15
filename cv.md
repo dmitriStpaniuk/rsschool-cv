@@ -1,4 +1,4 @@
-### [rsschool-cv](/)
+### [rsschool-cv](https://dmitristpaniuk.github.io/rsschool-cv/cv)
 
 ---
 
