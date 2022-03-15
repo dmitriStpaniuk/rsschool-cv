@@ -1,0 +1,44 @@
+.skills {
+  padding-bottom: 5.5rem;
+  &__items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 8px;
+  }
+}
+.skill__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 32rem;
+  background-position: center top;
+  background-repeat: no-repeat;
+  &:nth-child(1) {
+    background-image: url("../svg/camera.svg");
+    background-size: 6.2rem 5rem;
+  }
+  &:nth-child(2) {
+    background-image: url("../svg/video.svg");
+    background-size: 6.2rem 5rem;
+  }
+  &:nth-child(3) {
+    background-image: url("../svg/image.svg");
+    background-size: 6.2rem 5rem;
+  }
+  &:nth-child(4) {
+    background-image: url("../svg/mic.svg");
+    background-size: 6.2rem 5rem;
+  }
+}
+
+.skill__title {
+  margin-top: 10.5rem;
+  @include font(Inter, normal, bold, 2rem, 3rem);
+}
+.skill__text {
+  @include font(Inter, normal, normal, 1.8rem, 3.6rem);
+  padding: 0 20px;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "style": "sass --watch assets/sass/style.scss assets/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriStpaniuk/rsschool-cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitriStpaniuk/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/dmitriStpaniuk/rsschool-cv#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

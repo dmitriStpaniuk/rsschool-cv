@@ -1,0 +1,41 @@
+.footer__wrapper {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem 5rem 2rem;
+}
+.git {
+  width: 16rem;
+  display: flex;
+  justify-content: space-between;
+}
+.git__item__copyright {
+  @include font(Inter, normal, normal, 2rem, 5rem);
+}
+.git__item__years {
+  @include font(Inter, normal, normal, 1.8rem, 5rem);
+}
+.git__item__git {
+  @include font(Inter, normal, normal, 1.9rem, 5rem);
+}
+.media {
+  ul {
+    width: 23rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.rs {
+  padding-left: 70px;
+  @include font(Inter, normal, normal, 2rem, 5rem);
+}
+.media {
+  .media__link {
+    cursor: pointer;
+  }
+}
+.media__link:hover {
+  @extend %hover__svg;
+  @extend %transition;
+}

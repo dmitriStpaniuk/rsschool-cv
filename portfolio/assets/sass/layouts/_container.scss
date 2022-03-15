@@ -1,0 +1,12 @@
+.container {
+  max-width: $content-width;
+  margin: 0 auto;
+
+  @include laptop {
+    max-width: $tablet-width;
+  }
+  @include mobile {
+    max-width: $mobile-width;
+  }
+}
+
